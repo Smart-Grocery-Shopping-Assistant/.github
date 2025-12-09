@@ -5,7 +5,7 @@
 ### Backend
 - **Framework:** Flask
 - **Database:** SQLite (via SQLAlchemy ORM)
-- **AI:** Google Gemini API (model: `gemini-2.5-flash-lite` for item extraction)
+- **AI:** Grok API (model: `llama-3.3-70b-versatile` for item extraction)
 - **Libraries:** `flask-cors`, `python-dotenv`, `datetime`
 
 ### Frontend
@@ -21,7 +21,7 @@
 ### 1. Prerequisites
 - Python 3.x
 - Node.js and npm/yarn
-- Google Gemini API Key
+- Grok API Key
 
 ---
 
@@ -45,7 +45,7 @@ The requirements should include:
 - Flask-CORS
 - SQLAlchemy
 - python-dotenv
-- google-genai
+- groq
 - requests
 
 ### Step 4: Add Environment Variables
@@ -54,7 +54,7 @@ Create a `.env` file inside the backend folder:
 GEMINI_API_KEY="ADD_YOUR_API_KEY_HERE"
 ```
 
-### Step 5: Initialize the Database
+### Step 5: Initialise the Database
 ```bash
 python db_init.py
 ```
