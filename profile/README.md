@@ -51,7 +51,10 @@ The requirements should include:
 ### Step 4: Add Environment Variables
 Create a `.env` file inside the backend folder:
 ```env
-GEMINI_API_KEY="ADD_YOUR_API_KEY_HERE"
+GROQ_API_KEY="ADD_YOUR_API_KEY_HERE"
+```
+```
+https://console.groq.com/keys
 ```
 
 ### Step 5: Initialise the Database
